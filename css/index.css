@@ -73,9 +73,11 @@ a {
 /* Regole header */
 
 header {
-  height: 520px;
+  height: 540px;
   background-color: rgb(180, 208, 231);
 }
+
+/* Regole menù di naviazione */
 
 #main-nav {
   height: 6%;
@@ -148,7 +150,7 @@ header {
 
 .fa-arrow-down {
   display: inline-block;
-  margin-top: 60px;
+  margin-top: 40px;
   font-size: 40px;
   color: black;
 }
@@ -163,7 +165,7 @@ header {
   padding-bottom: 60px;
 }
 
-#planes h3, h2 {
+#planes h3 {
   color: black;
 }
 
@@ -216,7 +218,6 @@ header {
 .plane-type > h3 {
   display: inline-block;
   margin-left: 5px;
-  /* font-size: 13px; */
 }
 
 .description  i {
@@ -246,15 +247,16 @@ header {
   margin: 30px 0;
 }
 
-#planes > .plane {
+.more-info {
   width: 100%;
+  border: 1px solid black;
 }
 
-.plane > .flex-container {
+.more-info > .flex-container {
   justify-content: space-between;
 }
 
-.plane > .flex-container div, p {
+.more-info > .flex-container div, p {
   padding: 0 15px;
   margin: 20px 0;
 }
