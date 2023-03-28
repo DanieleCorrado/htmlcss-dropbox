@@ -169,6 +169,7 @@ header {
 
 .container {
   justify-content: space-between;
+  margin-bottom: 50px;
 }
 
 #options {
@@ -245,6 +246,18 @@ header {
   margin: 30px 0;
 }
 
+#planes > .plane {
+  width: 100%;
+}
+
+.plane > .flex-container {
+  justify-content: space-between;
+}
+
+.plane > .flex-container div, p {
+  padding: 0 15px;
+  margin: 20px 0;
+}
 
 
 
