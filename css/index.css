@@ -206,6 +206,7 @@ header {
 }
 
 .plane {
+  width: 400px;
   border: 1px solid black;
 }
 
@@ -256,9 +257,13 @@ header {
   justify-content: space-between;
 }
 
-.more-info > .flex-container div, p {
+.more-info > .flex-container div {
   padding: 0 15px;
   margin: 20px 0;
+}
+
+.more-info > p {
+  padding: 0 15px;
 }
 
 /* Regole contatti partner */
@@ -287,6 +292,36 @@ header {
   background-color: white;
   color: black;
 }
+
+/* Regole sezione features */
+
+#features {
+  margin: 100px 0;
+}
+
+#features h2 {
+  text-align: center;
+  font-size: 40px;
+}
+
+#features h3{
+  color: black;
+}
+
+#features .row {
+  justify-content: space-evenly;
+}
+
+#features .column {
+  width: calc(100% / 3);
+}
+
+.features-image {
+  width: 400px;
+}
+
+
+
 
 
 
@@ -334,44 +369,3 @@ footer {
 
 
 /* DEBUG */
-/* 
-header {
-  background-color: blue;
-}
-
-#left-nav {
-  width: 30%;
-  background-color: yellowgreen;
-  border: 1px solid black;
-}
-
-#right-nav {
-  width: 30%;
-  background-color: yellowgreen;
-  border: 1px solid black;
-}
-
-.link a {
-  background-color: aqua;
-  padding: 20px;
-}
-
-#jumbotron {
-  background-color: violet;
-} */
-
-main{
-  /* height: 1200px; */
-  background-color: white;
-}
-
-.plane {
-  width: 400px;
-  /* height: 900px; */
-  /* background-color: aqua; */
-}
-
-
-/* footer {
-  background-color: blueviolet;
-} */
