@@ -323,10 +323,6 @@ header {
 
 /* Regole sezione clients */
 
-#clients {
-  margin-bottom: 100px;
-}
-
 #clients h2 {
   margin-bottom: 60px;
   font-size: 40px;
@@ -426,6 +422,24 @@ header {
 
 #cco-color {
   background-color: rgb(255, 116, 48);
+}
+
+/* Regole last call */
+
+#last-call {
+  background-color: rgb(180, 208, 231);
+}
+
+#last-call > .flex-container {
+  width: 50%;
+  margin: 0 auto;
+  padding: 100px;
+  justify-content: space-between;
+}
+
+#last-call button {
+  color: black;
+  padding: 0 25px;
 }
 
 
