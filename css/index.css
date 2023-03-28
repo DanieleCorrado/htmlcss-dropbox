@@ -264,6 +264,7 @@ header {
 
 .more-info > p {
   padding: 0 15px;
+  margin-bottom: 10px;
 }
 
 /* Regole contatti partner */
@@ -320,8 +321,112 @@ header {
   width: 400px;
 }
 
+/* Regole sezione clients */
 
+#clients {
+  margin-bottom: 100px;
+}
 
+#clients h2 {
+  margin-bottom: 60px;
+  font-size: 40px;
+}
+
+#clients a {
+  color: blue;
+}
+
+#client-overview {
+  height: 500px;
+  margin-top: 50px;
+}
+
+/* regole blocchi clienti */
+
+#clients > div {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.client-logo {
+  width: calc(100% / 3);
+  flex-wrap: wrap;
+}
+
+.client-container {
+  height: 50%;
+  width: 50%;
+  justify-content: center;
+}
+
+.active-container {
+  filter: opacity(95%);
+  border: 10px solid grey;
+}
+
+.client-image {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+/* Regole informazioni cliente */
+
+.partner-info {
+  width: calc(100% / 3);
+  background-color: rgb(245, 245, 245);
+}
+
+.partner-info > .client-image {
+  height: 20%;
+  margin: 30px;
+}
+
+.partner-info hr {
+  width: 20%;
+  margin-left: 50px;
+}
+
+.partner-info p {
+  margin: 40px 50px;
+}
+.partner-info span {
+  margin: 0 50px;
+}
+
+/* Regole sfondo clienti */
+
+#designit-color {
+  background-color: rgb(161, 211, 155);
+}
+
+#asu-color {
+  background-color: rgb(97, 8, 43);
+}
+
+#uf-color {
+  background-color: rgb(0, 147, 206);
+}
+
+#topps-color {
+  background-color: rgb(255, 28, 28);
+}
+
+#wbr-color {
+  background-color: rgb(213, 43, 31);
+}
+
+#hr-color {
+  background-color: rgb(180, 208, 231);
+}
+
+#lp-color {
+  background-color: rgb(13, 36, 129);
+}
+
+#cco-color {
+  background-color: rgb(255, 116, 48);
+}
 
 
 
@@ -369,3 +474,23 @@ footer {
 
 
 /* DEBUG */
+/* #partner-overview {
+  width: 100%;
+  height: 400px;
+  background-color: blueviolet;
+}
+
+.client-logo {
+  height: 100%;
+  border: 1px solid black;
+}
+
+.partner-info {
+  height: 100%;
+  border: 1px solid red;
+}
+
+.client-container {
+  background-color: yellowgreen;
+  border: 1px solid black;
+} */
