@@ -66,6 +66,10 @@ a {
   display: flex;
 }
 
+.fa-check {
+  color: blue;
+}
+
 /* Regole header */
 
 header {
@@ -117,13 +121,13 @@ header {
 }
 
 .center {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
 }
 
 .align-right  img {
   float: right;
-  width: 750px;
+  width: 730px;
   margin-left: 15px;
 }
 
@@ -148,6 +152,106 @@ header {
   font-size: 40px;
   color: black;
 }
+
+
+/* Regole main */
+
+#planes {
+  width: 70%;
+  padding-top: 100px;
+  justify-content: space-between;
+  padding-bottom: 60px;
+}
+
+#planes h3, h2 {
+  color: black;
+}
+
+.container {
+  justify-content: space-between;
+}
+
+#options {
+  margin: 30px 0;
+}
+
+#options > span {
+  margin-left: 5px;
+  margin-right: 40px;
+}
+
+.checkbox {
+  width: 1.3em;
+  height: 1.3em;
+  background-color: white;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.checkbox-checked {
+  border: 5px solid rgb(0, 97, 255);
+}
+
+.description {
+  padding-top: 30px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.plane {
+  border: 1px solid black;
+}
+
+.plane-type {
+  height: 5%;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+.plane-type > h3 {
+  display: inline-block;
+  margin-left: 5px;
+  /* font-size: 13px; */
+}
+
+.description  i {
+  float: left;
+  height: 25px;
+  margin-right: 15px;
+}
+
+.description ul {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.description button {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.description a {
+  color: blue;
+  text-decoration: underline;
+}
+
+.description hr {
+  width: 30%;
+  margin: 30px 0;
+}
+
+
+
+
+
+
+
+
 
 /* Regole footer */
 
@@ -213,11 +317,17 @@ header {
 } */
 
 main{
-  height: 300px;
-  background-color: brown;
+  /* height: 1200px; */
+  background-color: white;
+}
+
+.plane {
+  width: 400px;
+  /* height: 900px; */
+  /* background-color: aqua; */
 }
 
 
-footer {
-  /* background-color: blueviolet; */
-}
+/* footer {
+  background-color: blueviolet;
+} */
