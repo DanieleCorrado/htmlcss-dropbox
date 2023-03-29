@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/index.css">
+    
     <title>Dropbox</title>
   </head>
 
@@ -176,7 +178,7 @@
   
           <div class="info">
 
-            <p id="info-text">
+            <p class="info-text">
               Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dalla stesso posto, Dropbox Business &eacute; pi&uacute; di uno spazio di archiviazzione sicuro: &eacute; un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente
             </p>
 
@@ -206,10 +208,10 @@
 
         <div id="options">
 
-          <input type="checkbox" class="checkbox checkbox-checked"></input>
+          <input type="checkbox" class="checkbox checkbox-checked">
           <span>Fatturazione mensile</span>
 
-          <input type="checkbox" class="checkbox"></input>
+          <input type="checkbox" class="checkbox">
           <span>Fatturazione annuale</span>
 
         </div>
@@ -231,23 +233,28 @@
             <div class="description">
 
               <h2>Professional</h2>
-              <b>&euro; 12.00</b><br>
+              <strong>&euro; 12.00</strong><br>
               <span>/mese</span>
 
               <!-- Lista vantaggi piano -->
               
-              <ul>
+              <ul class="fa-ul">
 
                 <li>
 
-                  <i class="fa-solid fa-user"></i>
+                  <span class="fa-li">
+                    <i class="fa-solid fa-user"></i>
+                  </span>
+
                   <span>1 utente</span>
 
                 </li>
 
                 <li>
 
-                  <i class="fa-solid fa-folder"></i>
+                  <span class="fa-li">
+                    <i class="fa-solid fa-folder"></i>
+                  </span>
 
                   <span>
                     5 TB di spazio di archiviazione sicuro
@@ -255,7 +262,9 @@
 
                 <li>
 
-                  <i class="fa-solid fa-share-nodes"></i>
+                  <span class="fa-li">
+                    <i class="fa-solid fa-share-nodes"></i>
+                  </span>
 
                   <span>
                     Funzioni di produttivit&aacute; premium e condivisione file semplice e sicura
@@ -273,17 +282,31 @@
 
               <h4>Punti Salienti del piano</h4>
 
-              <ul>
+              <ul class="fa-ul">
+
                 <li>
-                  <i class="fa-solid fa-check"></i>
-                  Invia file fino a 100 GB con Dropbox Transfert
+
+                  <span class="fa-li">
+                    <i class="fa-solid fa-check"></i>
+                  </span>
+
+                  <span>Invia file fino a 100 GB con Dropbox Transfert</span>
 
                 </li>
 
                 <li>
-                  <i class="fa-solid fa-check"></i>
-                  Cartelle offline su dispositivi mobili
+
+                  <span class="fa-li">
+                    <i class="fa-solid fa-check"></i>
+                  </span>
+
+                  <span>
+                    Cartelle offline su dispositivi mobili
+
+                  </span>
+
                 </li>
+
               </ul>
 
             </div>
@@ -304,24 +327,29 @@
             <div class="description">
 
               <h2>Advance</h2>
-              <b>&euro; 18.00</b><br>
+              <strong>&euro; 18.00</strong><br>
               <span>/utente/mese</span>
 
 
               <!-- Lista vantaggi piano -->
 
-              <ul>
+              <ul class="fa-ul">
 
                 <li>
 
-                  <i class="fa-solid fa-users"></i>
+                  <span class="fa-li">
+                    <i class="fa-solid fa-users"></i>
+                  </span>
+
                   <span>3 o pi&uacute; utenti</span>
 
                 </li>
 
                 <li>
 
-                  <i class="fa-solid fa-folder"></i>
+                  <span class="fa-li">
+                    <i class="fa-solid fa-folder"></i>
+                  </span>
 
                   <span>
                     Tutto lo spazio di cui ha bisogno il tuo team
@@ -329,7 +357,9 @@
 
                 <li>
 
-                  <i class="fa-solid fa-share-nodes"></i>
+                  <span class="fa-li">
+                    <i class="fa-solid fa-share-nodes"></i>
+                  </span>
 
                   <span>
                     Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team
@@ -347,31 +377,44 @@
 
               <h4>Punti Salienti del piano</h4>
 
-              <ul>
+              <ul class="fa-ul">
+
                 <li>
 
-                  <i class="fa-solid fa-check"></i>
+                  <span class="fa-li">
+                    <i class="fa-solid fa-check"></i>
+                  </span>
+                  
                   Nessun limite di spazio per i file
 
                 </li>
 
                 <li>
 
-                  <i class="fa-solid fa-check"></i>
+                  <span class="fa-li">
+                    <i class="fa-solid fa-check"></i>
+                  </span>
+
                   Cartelle offline su dispositivi mobili
 
                 </li>
 
                 <li>
 
-                  <i class="fa-solid fa-check"></i>
+                  <span class="fa-li">
+                    <i class="fa-solid fa-check"></i>
+                  </span>
+
                   Risparmio del 50% rispetto alle iscrizioni singole
 
                 </li>
 
                 <li>
 
-                  <i class="fa-solid fa-check"></i>
+                  <span class="fa-li">
+                    <i class="fa-solid fa-check"></i>
+                  </span>
+
                   Gestione dei permessi in base ai ruoli
 
                 </li>
@@ -396,30 +439,40 @@
             <div class="description">
 
               <h2>Enterprise</h2>
-              <span>Contattaci</span>
+              <strong>Contattaci</strong> <br>
+              <span> -</span>
 
               <!-- Lista vantaggi piano -->
 
-              <ul>
+              <ul class="fa-ul">
 
                 <li>
 
-                  <i class="fa-solid fa-users"></i>
+                  <span class="fa-li">
+                    <i class="fa-solid fa-users"></i>
+                  </span>
+                  
                   <span>10 o pi&uacute; utenti</span>
 
                 </li>
 
                 <li>
 
-                  <i class="fa-solid fa-folder"></i>
-
+                  <span class="fa-li">
+                    <i class="fa-solid fa-folder"></i>
+                  </span>
+                  
                   <span>
                     Soluzioni personalizzabili per la tua azienda
-                  </span></li>
+                  </span>
+
+                </li>
 
                 <li>
 
-                  <i class="fa-solid fa-share-nodes"></i>
+                  <span class="fa-li">
+                    <i class="fa-solid fa-share-nodes"></i>
+                  </span>
 
                   <span>
                     Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala
@@ -437,25 +490,34 @@
 
               <h4>Punti Salienti del piano</h4>
 
-              <ul>
+              <ul class="fa-ul">
 
                 <li>
 
-                  <i class="fa-solid fa-check"></i>
+                  <span class="fa-li">
+                    <i class="fa-solid fa-check"></i>
+                  </span>
+
                   Cartelle offline su dispositivi mobili
 
                 </li>
 
                 <li>
 
-                  <i class="fa-solid fa-check"></i>
+                  <span class="fa-li">
+                    <i class="fa-solid fa-check"></i>
+                  </span>
+
                   Servizio assistenza 24h
 
                 </li>
 
                 <li>
 
-                  <i class="fa-solid fa-check"></i>
+                  <span class="fa-li">
+                    <i class="fa-solid fa-check"></i>
+                  </span>
+                  
                   Possibilit&aacute; di personalizzazione totale
 
                 </li>
@@ -515,7 +577,7 @@
 
             <h2>Entra in contatto con un partenr Dropbox</h2>
 
-            <p id="info-text">
+            <p class="partner-text">
               Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dalla stesso posto, Dropbox Business &eacute; pi&uacute; di uno spazio di archiviazzione sicuro: &eacute; un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente
             </p>
 
@@ -704,7 +766,7 @@
 
             <div id="designit-color" class="client-container active-container flex-container">
 
-              <img class="client-image" src="img/designit.svg" alt="">
+              <img class="client-image" src="img/designit.svg" alt="designit logo">
 
             </div>
 
@@ -712,7 +774,7 @@
 
             <div id="asu-color" class="client-container flex-container">
 
-              <img class="client-image" src="img/arizona_state_university.svg" alt="">
+              <img class="client-image" src="img/arizona_state_university.svg" alt="arizona state university logo">
               
             </div>
 
@@ -720,7 +782,7 @@
 
             <div id="uf-color" class="client-container flex-container">
 
-              <img class="client-image florida" src="img/university_of_florida.svg" alt="">
+              <img class="client-image florida" src="img/university_of_florida.svg" alt="university of florida logo">
               
             </div>
 
@@ -728,7 +790,7 @@
 
             <div id="topps-color" class="client-container flex-container">
 
-              <img class="client-image" src="img/topps.svg" alt="">
+              <img class="client-image" src="img/topps.svg" alt="topps logo">
               
             </div>
 
@@ -738,7 +800,7 @@
 
           <div class="partner-info">
             
-            <img class="client-image" src="img/designit.svg" alt="">
+            <img class="client-image" src="img/designit.svg" alt="designit logo">
 
             <hr>
 
@@ -746,7 +808,7 @@
               "I membri del nostro team lavorano constantemente in Paesi, fusi orari e uffici diversi. Ora molte soluzioni sono compatibili con queste esigenza, ma nessuna &eacute; facile quanto Dropbox Paper."
             </p>
 
-            <span>Morten Thomsen, Global IT Leader</h5>
+            <span>Morten Thomsen, Global IT Leader</span>
 
           </div>
 
@@ -758,7 +820,7 @@
 
             <div id="wbr-color" class="client-container flex-container">
 
-              <img class="client-image" src="img/world_bicycle_relief.svg" alt="">
+              <img class="client-image" src="img/world_bicycle_relief.svg" alt="world bicycle relief logo">
 
             </div>
 
@@ -766,7 +828,7 @@
 
             <div id="hr-color" class="client-container flex-container">
 
-              <img class="client-image" src="img/hearst_corp.svg" alt="">
+              <img class="client-image" src="img/hearst_corp.svg" alt="hearst corp logo">
               
             </div>
 
@@ -774,7 +836,7 @@
 
             <div id="lp-color" class="client-container flex-container">
 
-              <img class="client-image" src="img/lonely_planet.svg" alt="">
+              <img class="client-image" src="img/lonely_planet.svg" alt="lonely planet logo">
               
             </div>
 
@@ -782,7 +844,7 @@
 
             <div id="cco-color" class="client-container flex-container">
 
-              <img class="client-image" src="img/clear_channel.svg" alt="">
+              <img class="client-image" src="img/clear_channel.svg" alt="clear channel logo">
               
             </div>
 
